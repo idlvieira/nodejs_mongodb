@@ -1,0 +1,16 @@
+{{>partials/header}}
+
+<h2 class="gap-3 mt-n1">Total de documentos: {{totalDocumetos}}</h2>
+
+    {{#documentos}}
+        <div class="card gap-3 mt-n1">
+            <div class="card-header">
+                <p>Nome: {{  }}</p>
+            </div>
+            <div class="card-body">
+                <p> Id: {{ _id }} </p>
+            </div>
+        </div>
+    {{/documentos}}
+
+{{>partials/footer}}
